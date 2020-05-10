@@ -1,4 +1,4 @@
-# COVID_19-Forecasting
+# COVID19 Forecasting
 Appropriate and timely information is the need of the hour to keep people aware of the effect of pandemic COVID-19. To control and prevent the spread of COVID-19 we will develop a system to predict the spread of the disease in future dates. The future predictions in the increase in the number of COVID-19 cases will help the government to take appropriate actions ahead of time.
 
 Here we have used Machine Learning to predict the future values of the number of COVID-19 Cases that might take place in the world and in the country India.
