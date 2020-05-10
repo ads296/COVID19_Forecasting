@@ -38,17 +38,17 @@ This source provides time series data for Confirmed, Recovered and Deceased Case
 ##### Note: We have modified the dataset according to the requirements for getting best results. The dataset has been divided into 3 parts for each case as confirmed, recovered and deceased and further calculated the cumulative values for each state.
 
 #### Original Dataset
-![](https://github.com/CodensureLetsCode/COVID19_Forecasting/blob/master/images/indiaOrgData.png?raw=true)
+![](https://github.com/ads296/COVID_19-Forecasting/blob/master/images/indiaOrgData.png?raw=true)
 
 #### Modified Datasets
 India Confirmed Cases
-![IndiaConfirmedCases](https://github.com/CodensureLetsCode/COVID19_Forecasting/blob/master/images/indiaConfirmed.png?raw=true)
+![IndiaConfirmedCases](https://github.com/ads296/COVID_19-Forecasting/blob/master/images/indiaConfirmed.png?raw=true)
 
 India Recovered Cases
-![IndiaRecoveredCases](https://github.com/CodensureLetsCode/COVID19_Forecasting/blob/master/images/indiaRecovered.png?raw=true)
+![IndiaRecoveredCases](https://github.com/ads296/COVID_19-Forecasting/blob/master/images/indiaRecovered.png?raw=true)
 
 India Deceased Cases
-![IndiaDeceasedCases](https://github.com/CodensureLetsCode/COVID19_Forecasting/blob/master/images/indiaDeaths.png?raw=true)
+![IndiaDeceasedCases](https://github.com/ads296/COVID_19-Forecasting/blob/master/images/indiaDeaths.png?raw=true)
 
 ### Model Creation and Evaluation
 The forecasting model is made using SVR - Support Vector Regression which is a Machine Learning based Regression Technique. This is suitable for non-linear regression problem similar to the spread of COVID-19 disease. SVR uses SVM (Support Vector Machine), which is a classification algorithm, for predicting a continuous variable.
@@ -58,15 +58,15 @@ The model is evaluated using MAE (Mean Absolute Error) and MSE (Mean Squared Err
 
 The model predicts the future number of cases for the next 10 days. The Actual Confirmed Cases till 6 May, 2020 and the Predictions for the next 10 days in India can be seen in the plot given below,
 
-![Predictions](https://github.com/CodensureLetsCode/COVID19_Forecasting/blob/master/images/India_Predictions.png?raw=true)
+![Predictions](https://github.com/ads296/COVID_19-Forecasting/blob/master/images/India_Predictions.png?raw=true)
 
-![WorldPredictions](https://github.com/CodensureLetsCode/COVID19_Forecasting/blob/master/images/WorldConfirmed.png?raw=true)
+![WorldPredictions](https://github.com/ads296/COVID_19-Forecasting/blob/master/images/WorldConfirmed.png?raw=true)
 
-![IndiaPredictions](https://github.com/CodensureLetsCode/COVID19_Forecasting/blob/master/images/IndiaConfirmedStates.png?raw=true)
+![IndiaPredictions](https://github.com/ads296/COVID_19-Forecasting/blob/master/images/IndiaConfirmedStates.png?raw=true)
 
 These predictions will be displayed on the Web Application 'ForeSee' made using Python-Flask.
 
-![ForeSee](https://github.com/CodensureLetsCode/COVID19_Forecasting/blob/master/images/ForeSee.png?raw=true)
+![ForeSee](https://github.com/ads296/COVID_19-Forecasting/blob/master/images/ForeSee.png?raw=true)
 
 The predictions are shown for the future dates:
 ##### 05/07/2020 -> 56884.07268483646
@@ -123,7 +123,7 @@ Examples of the events in case of COVID-19 can be:
 The Indian Population Demographics will be considered once we have the predictions and based on this a sequence of data will be generated. The Machine Learning approach of Sequence Classification will be applied to classify the level of severity of the future number of cases based on the demographics. For this, we will be requiring patient data for the population of each state from the Indian government and hospitals. From the dataset provided by the hospitals and government, we can keep a track of different sectors of the population that are affected by COVID-19 and how much percent of the population is suspected to be affected and under home quarantine and the percent which are safe and healthy. 
 
 The entire approach to the solution can be represented as shown in the diagram below,
-![ApproachDiagram](https://github.com/CodensureLetsCode/COVID19_Forecasting/blob/master/images/Approach%20Diagram.png?raw=true)
+![ApproachDiagram](https://github.com/ads296/COVID_19-Forecasting/blob/master/images/Approach%20Diagram.png?raw=true)
 
 The application ‘ForeSee’ will cover all the possible cases to predict the spread of COVID-19 in future dates and will enable early detection and prevention of the disease in the country.
 
